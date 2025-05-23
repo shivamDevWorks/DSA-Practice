@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.*;
 
-class Solution {
+class ReconstructingSequence {
     
     public static HashMap<Integer,Integer> getIndegree(HashMap<Integer,List<Integer>> map){
         

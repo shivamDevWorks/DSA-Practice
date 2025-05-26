@@ -16,6 +16,7 @@ class SPFA{
         visited[a]=true;
         while(!queue.isEmpty()){
             int node=queue.pollFirst();
+            visited[node]=false;
 
             for(Entry<Integer,Integer> neigh:graph.get(node)){
                 int child=neigh.getKey();
